@@ -1,0 +1,15 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bugday', 'kahve', 'mercimek', 'misir']
+
+
+
+roboflow:
+  workspace: estu-img
+  project: seeds-jmaks
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/estu-img/seeds-jmaks/dataset/1
