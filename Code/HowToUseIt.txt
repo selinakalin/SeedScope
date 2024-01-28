@@ -1,0 +1,9 @@
+Windows
+
+
+1- Open cmd and copy the path of detect.py file inside imgproject folder.
+2- Run this code, "pip install -r requiremets.txt" (follow readme.txt file.)
+3- For image,
+	- Run this code, "python detect.py --weight best.pt --imgsz 640 --source image_Address --view-img"
+4- For video
+	- Run this code, "python detect.py --weight best.pt --imgsz 640 --source video_Address --view-img
